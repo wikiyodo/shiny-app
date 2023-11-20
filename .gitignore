@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# Dependency directories
+/*/node_modules/
+/vendor/
+
+# Logs
+logs
+*.log
+
+# R files
+*.R
+/rsconnect/
