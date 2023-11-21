@@ -10,5 +10,4 @@ logs
 *.log
 
 # R files
-*.R
 /rsconnect/
