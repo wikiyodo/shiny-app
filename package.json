@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", 
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "@google-cloud/bigquery": "^7.3.0",
+    "@google-cloud/bigquery-connection": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "json2csv": "^6.0.0-alpha.2"
   }
 }
