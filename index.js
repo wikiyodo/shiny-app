@@ -170,7 +170,7 @@ app.post("/line-chart-data", async (req, res) => {
     }
 
     for (let x of xData) {
-      lineChartData[trimester].push(chartData[trimester][x] || null);
+      lineChartData[trimester].push(chartData[trimester][x] || 0);
     }
   }
 
