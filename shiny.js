@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000";
+const apiUrl = "https://shiny-a9e90cfe443c.herokuapp.com";
 
 function addNewOptionsToSelectBox(boxId, data) {
   const selectElement = $(`#${boxId}`);
